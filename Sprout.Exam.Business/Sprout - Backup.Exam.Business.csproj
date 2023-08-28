@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sprout.Exam.Common\Sprout.Exam.Common.csproj" />
+    <ProjectReference Include="..\Sprout.Exam.DataAccess\Sprout.Exam.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Factories\Contracts\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Services\Contracts\" />
+    <Folder Include="Strategies\Contracts\" />
+  </ItemGroup>
+
+</Project>
